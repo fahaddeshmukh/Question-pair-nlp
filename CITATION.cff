@@ -1,0 +1,68 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Semantic Duplicate Detection: Quora Question Pairs
+  Analysis using Machine Learning
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Fahad
+    family-names: Deshmukh
+    email: deshmukh@uni-potsdam.de
+    affiliation: University of Potsdam
+identifiers:
+  - type: url
+    value: 'https://github.com/fahaddeshmukh/Question-pair-nlp'
+    description: github repo
+abstract: >-
+
+  This project presents a machine learning (ML)-based
+  solution for the Quora Question Pairs challenge hosted on
+  Kaggle. With a focus on natural language processing (NLP),
+  the project addresses the task of identifying whether
+  pairs of questions from the Quora platform are duplicates.
+  The primary objective is to construct binary
+  classification models capable of determining whether two
+  provided questions are semantically similar or represent
+  duplicates.
+
+
+  The project involves a dataset comprising over 400,000
+  observations across six columns: 'ID', 'QID1', 'QID2',
+  'Question1', 'Question2', and 'Is_duplicate'. Through
+  systematic processing, exploratory data analysis, and
+  feature engineering, the project seeks to derive insights
+  for model development. The 'Is_duplicate' column,
+  containing boolean values indicating question duplicity,
+  serves as the dependent variable.
+
+
+  The project encompasses loading and preprocessing the
+  dataset, conducting exploratory data analysis, and
+  performing feature engineering using NLP techniques. The
+  engineered features are then subjected to additional
+  exploratory analysis. Predictive modeling forms the
+  culminating phase of the project, where various binary
+  classification models are trained and evaluated to
+  determine the most effective solution.
+
+
+  By addressing the Quora Question Pairs challenge, this
+  project contributes to the field of NLP and
+  classification, demonstrating the application of machine
+  learning techniques in detecting semantic similarity
+  within textual data. The outcomes shed light on the
+  efficacy of different models and feature engineering
+  strategies in tackling real-world NLP tasks.
+keywords:
+  - NLP
+  - Machine Learning
+  - Python
+  - jupyter notebbok
+  - Semantic duplicate
+license: MIT
+date-released: '2023-08-10'

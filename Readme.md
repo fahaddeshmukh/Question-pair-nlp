@@ -44,7 +44,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) fi
 ## Citation Information
 
 Citation information for this project can be found in the Citation files in the directory.
-URL for Citations: https://github.com/fahaddeshmukh/Causes-of-death-analysis/blob/main/CITATION.cff
+See the [CITATION](CITATION.cff) file for details.
 ## Contact Information
 For any questions, suggestions, or issues, please feel free to contact:
 
